@@ -16,7 +16,7 @@ You have come to the right part as I am personally sharing the books and resourc
 
 Meanwhile I will recommend my little book on Introduction to Web Development, as this is the minified version.
 
-1. Software Architecture Patterns by ****\_****.
+1. **Software Architecture Patterns** by ****\_****.
    This book practically impacted my understanding in knowing what and what it entails in developing oftware as a solution, following certain principles.
 
 # What are books recommended as a Web Developer
