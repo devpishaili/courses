@@ -1,5 +1,7 @@
 # Introdution to API
 
+RestAPI! Restful API! Fetch API! API's API! What the heck is AP
+
 ### What is an API?
 
 API as we all know is the acronym for Application Programming Interface (wait 🖐! did you know that! 😒)

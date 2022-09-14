@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice in Typescript</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Finance Logger</h1>
+
+      <div class="filter">
+        <div class="field">
+          <label for="">Filter:</label>
+          <select name="filter" id="filter">
+            <option value="all">All</option>
+            <option value="payment">Payment</option>
+            <option value="invoice">Invoice</option>
+          </select>
+        </div>
+      </div>
+
+      <ul class="item-list"></ul>
+    </div>
+
+    <footer>
+      <form class="new-item-form">
+        <div class="field">
+          <label for="">Type:</label>
+          <select name="" id="type">
+            <option value="invoice">Invoice</option>
+            <option value="payment">Payment</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="">To / From:</label>
+          <input required type="text" id="tofrom" />
+        </div>
+        <div class="field">
+          <label for="">Details:</label>
+          <input required type="text" id="details" />
+        </div>
+        <div class="field">
+          <label for="">Amount (#):</label>
+          <input required type="number" min="0" id="amount" />
+        </div>
+        <button type="submit">Add</button>
+      </form>
+
+      <a
+        href="https://devpacademy.hashnode.dev"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Dev P Academy</a
+      >
+    </footer>
+    <script type="module" src="./js/bundle.js"></script>
+  </body>
+</html>
